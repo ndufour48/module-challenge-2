@@ -1,12 +1,57 @@
-body {
-    background-color:forestgreen;
-    padding: 10%
-  }
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
 
-h1 {
-    color: lavender
+body {
+  background-color:forestgreen;
+  font-family: 'Times New Roman', Times, serif;
   }
 
 p {
-    color: darkred;
+    color: gold;
   }
+
+a {
+  color: darkorange;
+  text-decoration: none;
+}
+
+.header {
+  padding: 2px;
+  margin: 2%;
+  background-color: black;
+  color: blueviolet;
+}
+
+.header h1 {
+  padding: 5px;
+  margin: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 55px;
+}
+
+.header ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  list-style-type: none;
+}
+
+.header ul li {
+  padding: 1%;
+  margin-right: 3%;
+  margin-left: 3%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 25px;
+}
+
+.header ul li a:hover {
+  color: greenyellow;
+  text-decoration: line-through;
+}
