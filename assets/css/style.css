@@ -81,6 +81,19 @@ h2 {
   float: left;
 }
 
+.LGcard img {
+  width: 100%;
+  border: solid;
+  object-fit: fill;
+}
+
+.SMcard img {
+  height: 50vh;
+  width: 49.8%;
+  border: solid;
+  object-fit: fill;
+}
+
 .contact ul {
   display: flex;
   justify-content: center;
