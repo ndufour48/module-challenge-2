@@ -5,7 +5,7 @@
 }
 
 body {
-  background-color:black;
+  background-color: black;
   font-family: 'Times New Roman', Times, serif;
   }
 
@@ -15,13 +15,13 @@ p {
   }
 
 a {
-  color: darkblue;
+  color: #cc0000;
   text-decoration: none;
 }
 
 .header {
   padding: 3px;
-  border: 3px;
+  border: 4px;
   border-style: solid;
   border-color: grey;
   margin: 30px 150px 5px 150px;
@@ -34,6 +34,7 @@ a {
   display: flex;
   justify-content: center;
   font-size: 55px;
+  text-decoration: underline;
 }
 
 .header ul {
@@ -59,14 +60,14 @@ h2 {
   align-items: center;
   justify-content: center;
   font-size: 40px;
-  color: black;
+  text-decoration: underline;
 }
 
 .about,
 .work, 
 .contact {
   padding: 3px 75px;
-  border: 3px;
+  border: 4px;
   border-style: solid;
   border-color: grey;
   margin: 5px 150px 5px 150px;
@@ -75,7 +76,7 @@ h2 {
 }
 
 .portrait {
-  width: 100px; 
+  width: 80px; 
   border: solid;
   margin: 1px 20px 20px 1px;
   float: left;
@@ -84,14 +85,31 @@ h2 {
 .LGcard img {
   width: 100%;
   border: solid;
-  object-fit: fill;
+}
+
+.LGcard img:hover {
+  backdrop-filter: blur(4px);
+  filter: blur(4px);
+  transition: 0.4s ease;
+  border-color: grey;
+}
+
+.SMcard {
+  display: flex;
+  flex: 50%;
 }
 
 .SMcard img {
-  height: 50vh;
-  width: 49.8%;
+  height: 100%;
+  width: 100%;
   border: solid;
-  object-fit: fill;
+}
+
+.SMcard img:hover {
+  backdrop-filter: blur(4px);
+  filter: blur(4px);
+  transition: 0.4s ease;
+  border-color: grey;
 }
 
 .contact ul {
@@ -107,5 +125,5 @@ h2 {
 
 .contact ul li a:hover {
   color: grey;
-  text-decoration: none;
+  text-decoration: line-through;
 }
