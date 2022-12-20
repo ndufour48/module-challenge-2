@@ -7,7 +7,7 @@ This portfolio was built to provide some insight for employers on some of Nichol
 You can use the navigation links at the top of the page to scroll to the corresponding section of the webpage. When you visit the "Work" seciotn, you can click each photo to view other websites that I have built or contributed to. When visiting the "Contact" section, you can click each of the links to reach out by either Linkedin, phone, e-mail, or Github.
 
 ## Screenshot
-![](/assets/assets/screenshot-portfolio.png)
+![](/assets/images/screenshot-portfolio.png)
 
 ## Link
 [Profession Portfolio](https://ndufour48.github.io/professional-portfolio/)
