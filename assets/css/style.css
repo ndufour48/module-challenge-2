@@ -86,15 +86,14 @@ h2 {
 
 .LGcard img {
   width: 100%;
-  border: 5px groove;
+  border: 5px groove var(--secondary);
   margin-bottom: 2%;
+  filter: grayscale(100%);
 }
 
 .LGcard img:hover {
-  backdrop-filter: blur(3px);
-  filter: blur(3px);
-  transition: 0.3s ease;
   border: 7px groove var(--primary);
+  filter: grayscale(0%);
 }
 
 .SMcard {
@@ -105,13 +104,12 @@ h2 {
   height: 100%;
   width: 100%;
   border: 5px groove;
+  filter: grayscale(100%);
 }
 
 .SMcard img:hover {
-  backdrop-filter: blur(3px);
-  filter: blur(3px);
-  transition: 0.3s ease;
   border: 7px groove var(--primary);
+  filter: grayscale(0%);
 }
 
 .SMcard1 {
